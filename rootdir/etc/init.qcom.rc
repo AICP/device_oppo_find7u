@@ -53,6 +53,8 @@ on boot
     chown system system /sys/class/leds/led:rgb_blue/ramp_step_ms
     chown system system /sys/class/leds/led:rgb_blue/duty_pcts
     chown system system /sys/class/leds/led:rgb_blue/blink
+    
+    write /proc/touchpanel/double_tap_enable 1
 
 on post-fs-data
     # Torch
