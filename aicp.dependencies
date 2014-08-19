@@ -1,0 +1,47 @@
+[
+   {
+    "repository": "AICP/device_oppo_find7",
+    "target_path": "device/oppo/find7",
+    "branch":      "kitkat"
+  },
+  {
+   "repository":  "AICP/device_oppo_common",
+   "target_path": "device/oppo/common",
+   "branch":      "kitkat"
+  },
+  {
+    "repository": "CyanogenMod/android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "branch":      "cm-11.0"
+  },
+  {
+   "repository":  "CyanogenMod/android_frameworks_opt_connectivity",
+   "target_path": "frameworks/opt/connectivity",
+   "branch":      "cm-11.0"
+  },
+  {
+   "repository":  "NamelessRom/android_kernel_oppo_msm8974",
+   "target_path": "kernel/oppo/msm8974",
+   "branch":      "android-4.4"
+  },
+  {
+    "repository": "CyanogenMod/android_hardware_qcom_display-caf-new",
+    "target_path": "hardware/qcom/display-caf-new",
+    "branch":      "cm-11.0"
+  },
+  {
+    "repository": "CyanogenMod/android_hardware_qcom_audio-caf",
+    "target_path": "hardware/qcom/audio-caf",
+    "branch":      "cm-11.0"
+  },
+  {
+    "repository": "CyanogenMod/android_hardware_qcom_media-caf-new",
+    "target_path": "hardware/qcom/media-caf-new",
+    "branch":      "cm-11.0"
+  },
+  {
+   "repository":  "CrazyWeasel/proprietary_vendor_oppo",
+   "target_path": "vendor/oppo",
+   "branch":      "android-4.4"
+  }
+]
