@@ -319,6 +319,9 @@ on post-fs-data
     chown system camera /sys/devices/qcom,camera-led-flash.81/test
     chmod 0777 /sys/devices/qcom,camera-led-flash.81/test
 
+    #DT2W
+    write /proc/touchpanel/double_tap_enable 1
+
     chown system system /sys/class/timed_output/vibrator/vtg_level
     chown system system /sys/class/timed_output/vibrator/vtg_max
     chown system system /sys/class/timed_output/vibrator/vtg_min
