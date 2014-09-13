@@ -115,7 +115,7 @@ TARGET_PROVIDES_LIBLIGHT := true
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/oppo/find7
-TARGET_KERNEL_CONFIG := msm8974_find7_defconfig
+TARGET_KERNEL_CONFIG := custom_find7_defconfig
 BOARD_CUSTOM_BOOTIMG_MK := device/oppo/find7u/mkbootimg.mk
 BOARD_KERNEL_BASE        := 0x00000000
 BOARD_KERNEL_PAGESIZE    := 2048
