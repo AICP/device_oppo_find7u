@@ -15,7 +15,7 @@
    "branch":      "cm-11.0"
   },
   {
-   "repository":  "AICP/kernel_oneplus_msm8974",
+   "repository":  "AICP/kernel_oppo_msm8974",
    "target_path": "kernel/oppo/find7",
    "branch":      "kitkat"
   },
